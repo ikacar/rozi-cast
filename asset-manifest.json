@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ikacar/rozi-cast/static/css/main.6869a426.css",
+    "main.js": "/ikacar/rozi-cast/static/js/main.1ad7dacd.js",
+    "static/js/787.45553b18.chunk.js": "/ikacar/rozi-cast/static/js/787.45553b18.chunk.js",
+    "static/media/landing.png": "/ikacar/rozi-cast/static/media/landing.876dd7bfcae5a17c6300.png",
+    "static/media/ilija.png": "/ikacar/rozi-cast/static/media/ilija.22ca82e21c823a460b3b.png",
+    "static/media/phone.png": "/ikacar/rozi-cast/static/media/phone.d10bd4a12c0c02109e27.png",
+    "static/media/matrix.png": "/ikacar/rozi-cast/static/media/matrix.44902cc768cca171f30a.png",
+    "static/media/qa.png": "/ikacar/rozi-cast/static/media/qa.0bfcabef4ad8a9edacfe.png",
+    "static/media/web-development.png": "/ikacar/rozi-cast/static/media/web-development.895b63c96a57f6c72e6e.png",
+    "static/media/pm.png": "/ikacar/rozi-cast/static/media/pm.3749ce4a61160fa95184.png",
+    "index.html": "/ikacar/rozi-cast/index.html",
+    "main.6869a426.css.map": "/ikacar/rozi-cast/static/css/main.6869a426.css.map",
+    "main.1ad7dacd.js.map": "/ikacar/rozi-cast/static/js/main.1ad7dacd.js.map",
+    "787.45553b18.chunk.js.map": "/ikacar/rozi-cast/static/js/787.45553b18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6869a426.css",
+    "static/js/main.1ad7dacd.js"
+  ]
+}
