@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 30px
+    padding: 10px
 }
 
 .service-card{
@@ -23,8 +23,8 @@
     animation: leftSectionFadeIn 500ms ease-in-out;
 }
 .service-card-image-div{
-    width: 230px ;
-    height: 140px;
+    width: 200px ;
+    height: 110px;
 
 }
 .service-card-image{
@@ -36,7 +36,7 @@
     padding: 15px;
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 20px;
+    /* font-size: 20px; */
     /* font-weight: bold; */
     /* text-align: left; */
 }

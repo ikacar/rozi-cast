@@ -1,6 +1,7 @@
 {
   "name": "rozi-cast",
   "version": "0.1.0",
+  "homepage": "https://ikacar.github.io/rozi-cast/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -20,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +45,7 @@
   },
   "devDependencies": {
     "@types/react-slick": "^0.23.12",
+    "gh-pages": "^6.1.0",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1"
   }
