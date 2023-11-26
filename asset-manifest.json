@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rozi-cast/static/css/main.842233dc.css",
+    "main.css": "/rozi-cast/static/css/main.cc1f748d.css",
     "main.js": "/rozi-cast/static/js/main.44e38902.js",
     "static/js/787.45553b18.chunk.js": "/rozi-cast/static/js/787.45553b18.chunk.js",
     "static/media/landing.png": "/rozi-cast/static/media/landing.876dd7bfcae5a17c6300.png",
@@ -11,12 +11,12 @@
     "static/media/web-development.png": "/rozi-cast/static/media/web-development.895b63c96a57f6c72e6e.png",
     "static/media/pm.png": "/rozi-cast/static/media/pm.3749ce4a61160fa95184.png",
     "index.html": "/rozi-cast/index.html",
-    "main.842233dc.css.map": "/rozi-cast/static/css/main.842233dc.css.map",
+    "main.cc1f748d.css.map": "/rozi-cast/static/css/main.cc1f748d.css.map",
     "main.44e38902.js.map": "/rozi-cast/static/js/main.44e38902.js.map",
     "787.45553b18.chunk.js.map": "/rozi-cast/static/js/787.45553b18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.842233dc.css",
+    "static/css/main.cc1f748d.css",
     "static/js/main.44e38902.js"
   ]
 }
