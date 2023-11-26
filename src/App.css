@@ -1,38 +1,193 @@
-.App {
-  text-align: center;
-}
+/* src/App.css */
+.App{
+  /* use some hacking font  */
+  font-family: 'Source Code Pro', sans-serif;
+  background-color: #333;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.fullscreen-section {
+  height: 100vh;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  padding: 100px
+  }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-links{
+  margin-right: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.logo {
+  margin-left: 100px;
+  font-size: 40px;
+  font-weight: bold;
+
+  .rose-text {
+    color: #deb2e4;
   }
-  to {
-    transform: rotate(360deg);
+  .rose-text:hover {
+    color: rgb(97, 146, 195);
   }
+  
+  .blue-text {
+    color: rgb(97, 146, 195);
+  }
+  .blue-text:hover {
+    color: #deb2e4;
+  }
+}
+.logo:hover {
+
+  cursor: pointer;
+  /* transform: scale(1.1); */
+
+  .blue-text {
+    color: #deb2e4;
+  }
+  
+  .rose-text {
+    color: rgb(97, 146, 195);
+  }
+
+}
+
+
+
+.nav-links button {
+  margin: 0 10px;
+  font-size: 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: rgb(97, 146, 195);
+}
+
+.nav-links button{
+  transition: transform 0.3s ease;
+}
+
+/* Promenite boju teksta na hover */
+.nav-links button:hover {
+  color: #deb2e4;
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+
+.small-heading-font{
+  font-size: 30px;
+}
+.medium-heading-font{
+  font-size: 60px;
+}
+
+.blue-text {
+  opacity: 0.8;
+  color: rgb(97, 146, 195);
+}
+
+.rose-text {
+  opacity: 0.8;
+  color: #deb2e4;
+}
+.small-card{
+  background-color: rgba(255, 255, 255, 0.03);
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  margin: 20px;
+  background-size: cover;
+
+}
+
+.medium-card{
+  background-color: rgba(255, 255, 255, 0.03);
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+
+  margin: 20px;
+}
+
+.big-card{
+  background-color: rgba(255, 255, 255, 0.03);
+  width: 500px;
+  height: 600px;
+  border-radius: 10px;
+  margin: 20px;
+
+}
+
+.card-shadow-rose{
+  box-shadow: 0 0 10px rgba(222, 178, 228, 0.5);
+}
+
+.card-hover-shadow-rose:hover{
+  box-shadow: 0 0 20px rgba(222, 178, 228, 0.2);
+}
+
+.hover-scale-11 {
+  /* Postavite početno stanje transformacije i tranzicije */
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.hover-scale-11:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.hover-scale-102{
+  /* Postavite početno stanje transformacije i tranzicije */
+  transform: scale(1);
+  transition: transform 0.3s ease;
+
+}
+.hover-scale-102:hover{
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+
+}
+
+.hover-scale-15{
+  /* Postavite početno stanje transformacije i tranzicije */
+  transform: scale(1);
+  transition: transform 0.3s ease;
+
+}
+.hover-scale-15:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: transform 0.3s ease;
+
+}
+
+.hover-color-rose:hover{
+  background-color: #deb2e4;
+}
+
+.hover-text-color-rose:hover{
+  color: #deb2e4;
+}
+
+.hover-color-blue:hover{
+  background-color: rgb(97, 146, 195);
+}
+
+.hover-text-color-blue:hover{
+  color: rgb(97, 146, 195);
 }

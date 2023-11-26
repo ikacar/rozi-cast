@@ -1,0 +1,55 @@
+.services-content{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+.service-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px
+}
+
+.service-card{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: leftSectionFadeIn 500ms ease-in-out;
+}
+.service-card-image-div{
+    width: 230px ;
+    height: 140px;
+
+}
+.service-card-image{
+    height: 100%;
+
+}
+.service-card-text{
+    text-align: center;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    /* font-weight: bold; */
+    /* text-align: left; */
+}
+
+.services-container-dots{
+    padding-top: 30px;
+}
+.services-dot{
+/* napravi male kruzice koji ce da predstavljaju dots vezane za card container */
+    height: 15px;
+    width: 15px;
+    background-color: #deb2e4;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 20px;
+}
